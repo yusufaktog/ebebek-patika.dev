@@ -3,6 +3,11 @@ package averagegrade;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
+/**
+ * @author JOSEPH
+ * average grade  calculator with
+ * math, turkish, physics, chemistry, music classes
+ * */
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

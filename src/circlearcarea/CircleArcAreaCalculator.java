@@ -3,6 +3,11 @@ package circlearcarea;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
+/**
+ * @author JOSEPH
+ * Calcutate Circle Arc with angle 'a' in degrees
+ * area = (Math.PI * radius * radius * a) / 360;
+ */
 public class CircleArcAreaCalculator {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

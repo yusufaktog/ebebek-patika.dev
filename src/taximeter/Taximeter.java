@@ -4,6 +4,10 @@ import java.awt.*;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
+/**
+ * @author JOSEPH
+ * Calculate the total price of drive
+ */
 public class Taximeter {
     public static final double PRICE_PER_KM = 2.2;
     public static final int MIN_PRICE = 20;

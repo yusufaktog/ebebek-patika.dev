@@ -4,6 +4,12 @@ import java.sql.SQLOutput;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
+/**
+ * @author JOSEPH
+ * Calculate the area of a triangle
+ * u = perimeter / 2
+ * area = Math.sqrt(u * (u - a) * (u - b) * (u - c))
+ */
 public class TriangleAreaCalculator {
     public static void main(String[] args) {
         double perimeter;

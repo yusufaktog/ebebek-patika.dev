@@ -3,6 +3,11 @@ package kdvcalculator;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
+
+/**
+ * @author JOSEPH
+ * calcutlate the kdv ratio and amount of kdv applied
+ */
 public class KdvCalculator {
     public static void main(String[] args) {
         double basePrice = 0;

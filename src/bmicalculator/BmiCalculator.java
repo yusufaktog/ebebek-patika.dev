@@ -4,6 +4,12 @@ import java.text.DecimalFormat;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
+/**
+ * @author JOSEPH
+ * Body Mass Index calculator
+ * weight (kg), height(m)
+ * bmi = weight / (height * height)
+ */
 public class BmiCalculator {  // Body Mass Index
     public static void main(String[] args) {
         double weight = 0, height = 0;
