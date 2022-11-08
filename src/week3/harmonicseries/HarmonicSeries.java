@@ -6,9 +6,8 @@ import java.util.Scanner;
 
 /**
  * @author JOSEPH
- * Harmonic series.
- * n = 5;
- * 1 + 1/2 + 1/3 + 1/4 + 1/5;
+ * Write a program that calculates the harmonic mean of the numbers in the array.
+ * Harmonic Mean formula: n (number of elements) / harmonic series of elements
  */
 
 public class HarmonicSeries {
@@ -24,6 +23,7 @@ public class HarmonicSeries {
             System.out.println("Incorrect Data Type");
             return;
         }
+
         for (int i = 1; i < number + 1; i++) {
             total += 1.0 / i;
         }
